@@ -1,10 +1,11 @@
 <div class="container">
   <div class="navbar navbar-expand-lg navbar-light bg-light">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item nav-link" routerLink="/home" routerLinkActive="active-menu">🦈Home🦈</li>
       <li class="nav-item nav-link" routerLink="/primi" [state]="data.primi" routerLinkActive="active-menu">Primi ({{data.primi.length}})</li>
       <li class="nav-item nav-link" routerLink="/secondi" [state]="data.secondi" routerLinkActive="active-menu">Secondi ({{data.primi.length}})</li>
       </ul>
   </div>
   <router-outlet></router-outlet>
-  <footer class="bg-light text-center">-----Trattoria FishBurger-----</footer>
+  <footer class="bg-light text-center">Ristorante FishBurger ★ ★ ★ ★ ☆</footer>
 </div>  
